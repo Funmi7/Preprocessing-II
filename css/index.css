@@ -171,12 +171,19 @@ img {
 header {
   margin-top: 30px;
   display: flex;
-  justify-content: space-between;
   align-items: center;
-  margin-bottom: 30px;
+  justify-content: space-evenly;
+  border-bottom: 2px dashed #C0C0C0;
+}
+header h1 {
+  padding-right: 2rem;
+  margin-bottom: 20px;
+}
+header .navigation {
+  margin-bottom: 20px;
 }
 header .navigation a {
-  padding-left: 2rem;
+  padding-left: 2.2rem;
   text-decoration: none;
   color: #212529;
   font-size: 1.8rem;
@@ -204,9 +211,6 @@ header .navigation a {
   color: #212529;
   font-size: 1.6rem;
   padding: 20px;
-}
-.home .main-heading .main-img {
-  border-top: 2px dashed #C0C0C0;
 }
 .home .main-heading .text-heading {
   margin-top: 20px;
