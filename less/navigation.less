@@ -4,7 +4,6 @@ header {
     margin-top: 30px;
     display: flex;
     align-items: center;
-    // margin-bottom: 30px;
     justify-content: space-evenly;
     border-bottom: 2px dashed @navigation-border;
     
@@ -25,7 +24,7 @@ header {
         }
     }
 
-    @media(max-width: @mobile) {
+    @media @mobile {
         flex-direction: column;
         align-items: center;
         margin-bottom: 20px;
