@@ -1,13 +1,13 @@
 // Mixins in here
 
-.bottom-buttons () {
-    background-color: @button-bg;
-    text-align: center;
+.bottom-buttons (@backgroundColor, @alignText, @textColor) {
+    background-color: @backgroundColor;
+    text-align: @alignText;
     border-radius: 10px;
     padding-top: 10px;
     padding-bottom: 10px;
     width: 80%;
-    color: @white;
+    color: @textColor;
     font-size: 1.6rem;
 
 }
